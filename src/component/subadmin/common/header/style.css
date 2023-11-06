@@ -1,0 +1,16 @@
+.gutter-box {
+    position: relative;
+    padding: 8px 0;
+    background: #00a0e9;
+}
+
+.defined-block {
+    position: absolute;
+    right: 0;
+    top: 32px;
+    transform: translate(0%, -50%);
+}
+
+.avatar-header {
+    cursor: pointer;
+}

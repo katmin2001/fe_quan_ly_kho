@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  front-end:
+    build:
+      ./
+    container_name: SW-frontend
+    ports:
+    - 8080:80

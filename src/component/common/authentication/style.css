@@ -1,0 +1,36 @@
+.login-background {
+    /* The image used */
+    background-image: url("../../../../public/static/image/login-background.jpg");
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.login-form {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    width: 333px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.login-tab, .signup-tab {
+    text-align: center;
+    width: 50%;
+}
+
+.ant-card .ant-card-head .ant-tabs-top {
+    align-items: center;
+}
